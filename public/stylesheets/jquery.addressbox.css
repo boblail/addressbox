@@ -1,0 +1,18 @@
+.addressbox-container {
+  position: relative;
+}
+
+.addressbox-container textarea {
+  background: transparent;
+}
+
+.addressbox-container textarea.addressbox-placeholder {
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #aaa;
+  z-index: -1;
+  border: 1px solid transparent;
+  resize: none;
+}
